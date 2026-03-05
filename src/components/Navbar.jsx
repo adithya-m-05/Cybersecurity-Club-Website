@@ -28,6 +28,7 @@ const Navbar = ({ scrolled }) => {
           <a onClick={() => scrollToSection("hero")}>Home</a>
           <a onClick={() => scrollToSection("about")}>About</a>
           <a onClick={() => scrollToSection("gallery")}>Gallery</a>
+          <a onClick={() => scrollToSection("team")}>Team</a>
           <a onClick={() => scrollToSection("events")}>Events</a>
           <a onClick={() => scrollToSection("contact")}>Contact</a>
           <button className="join-btn" onClick={() => scrollToSection("contact")}>Join Us</button>
@@ -49,6 +50,7 @@ const Navbar = ({ scrolled }) => {
           <a onClick={() => scrollToSection("hero")}>Home</a>
           <a onClick={() => scrollToSection("about")}>About</a>
           <a onClick={() => scrollToSection("gallery")}>Gallery</a>
+          <a onClick={() => scrollToSection("team")}>Team</a>
           <a onClick={() => scrollToSection("events")}>Events</a>
           <a onClick={() => scrollToSection("contact")}>Contact</a>
           <button className="join-btn mobile-join-btn" onClick={() => scrollToSection("contact")}>Join Us</button>
